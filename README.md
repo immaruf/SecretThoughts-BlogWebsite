@@ -19,3 +19,8 @@ $ mongod
 $ node app.js
 ```
 now you can use this app via [http://localhost:3000/](http://localhost:3000/)
+
+### How to get a CLIENT_ID & CLIENT_SECRET?
+#### Create an Application
+
+To get a CLIENT_ID and a CLIENT_SECRET you must register an application with Google. If you have not already done so, a new project can be created in the [Google Developers Console](https://console.developers.google.com/). Your application will be issued a client ID and client secret, which need to be provided to the strategy. You will also need to configure a redirect URI which matches the route in your application.
